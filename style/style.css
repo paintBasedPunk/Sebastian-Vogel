@@ -42,10 +42,6 @@ body {
   background-size: cover;
 }
 
-#default {
-  overflow: hidden;
-}
-
 /* --- Utility Classes --- */
 .flex-center {
   display: flex;
@@ -259,6 +255,15 @@ footer i {
   .container header {
     font-size: 1.2rem;
   }
+
+  .contact {
+    padding: 2rem;
+  }
+
+  .contact p {
+    font-size: 2rem;
+    padding: 2rem;
+  }
 }
 
 @media (max-width: 680px) {
@@ -272,6 +277,16 @@ footer i {
     padding: 0.25rem;
     font-size: 0.8rem;
   }
+
+  .contact {
+    padding: 0.2rem;
+    min-width: 70%;
+  }
+
+  .contact p {
+    font-size: 2rem;
+    padding: 2rem 0.4rem;
+  }
 }
 
 @media (max-height: 500px) {
@@ -281,7 +296,7 @@ footer i {
     align-items: center;
   }
 
-  .btn{
+  .btn {
     margin: 1rem;
   }
 }
