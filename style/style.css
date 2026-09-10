@@ -94,11 +94,11 @@ body {
   aspect-ratio: 1 / 1.6;
 }
 
-.fixed {
+/* .fixed {
   position: fixed;
   bottom: 0;
   width: 100%;
-}
+} */
 
 .bottom {
   position: absolute;
@@ -271,6 +271,18 @@ footer i {
   header {
     padding: 0.25rem;
     font-size: 0.8rem;
+  }
+}
+
+@media (max-height: 500px) {
+  .btn-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .btn{
+    margin: 1rem;
   }
 }
 
