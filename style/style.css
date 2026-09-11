@@ -184,7 +184,6 @@ body {
 
 header {
   color: var(--light);
-  border: #fff 2px solid;
   padding: 1rem;
   border-radius: 5px;
 }
@@ -214,12 +213,10 @@ footer i {
 }
 
 .social-icons {
-  /* position: fixed; */
   margin: 0.5rem auto;
-  bottom: 0;
-  left: 50%;
+  padding: 0.5rem 1rem;
   border: #fff 2px solid;
-  /* transform: translateX(-50%); */
+  border-radius: 5px;
 }
 
 .social-icons a {
@@ -236,12 +233,6 @@ footer i {
 
 .social-icons i:hover {
   transform: scale(1.1);
-}
-
-.social-icons,
-.social-icons-mobile {
-  border-radius: 10px;
-  padding: 0.5rem 1rem;
 }
 
 .social-icons-mobile {
